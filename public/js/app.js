@@ -1959,7 +1959,7 @@ __webpack_require__.r(__webpack_exports__);
         title: "أذكار الصباح والمساء"
       },
       dikrValues: {},
-      audioSelectedSrc: "http://www.hisnmuslim.com/audio/ar/75.mp3",
+      audioSelectedSrc: "https://www.hisnmuslim.com/audio/ar/75.mp3",
       active: 75
     };
   },
@@ -1983,7 +1983,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this2 = this;
 
       this.isLoading = true;
-      fetch("http://www.hisnmuslim.com/api/ar/".concat(obj.id, ".json")).then(function (res) {
+      fetch("https://www.hisnmuslim.com/api/ar/".concat(obj.id, ".json")).then(function (res) {
         if (res.status == 404) {
           _this2.err = "dikr data not found";
         }
@@ -2082,7 +2082,7 @@ __webpack_require__.r(__webpack_exports__);
     fetchHisn: function fetchHisn() {
       var _this = this;
 
-      fetch("http://www.hisnmuslim.com/api/ar/husn_ar.json").then(function (res) {
+      fetch("https://www.hisnmuslim.com/api/ar/husn_ar.json").then(function (res) {
         if (res.status == 404) {
           _this.err = "hisn not found";
         }
