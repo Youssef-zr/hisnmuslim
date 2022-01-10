@@ -47,7 +47,7 @@ export default {
       isLoading: true,
       dikrSelectedValues: { id: 27, title: "أذكار الصباح والمساء" },
       dikrValues: {},
-      audioSelectedSrc: "http://www.hisnmuslim.com/audio/ar/75.mp3",
+      audioSelectedSrc: "https://www.hisnmuslim.com/audio/ar/75.mp3",
       active: 75,
     };
   },
