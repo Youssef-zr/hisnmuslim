@@ -51,7 +51,7 @@ export default {
   },
   methods: {
     fetchHisn() {
-      fetch("http://www.hisnmuslim.com/api/ar/husn_ar.json")
+      fetch("https://www.hisnmuslim.com/api/ar/husn_ar.json")
         .then((res) => {
           if (res.status == 404) {
             this.err = "hisn not found";
