@@ -64,7 +64,7 @@ export default {
   methods: {
     getHaditData(obj) {
       this.isLoading = true;
-      fetch(`http://www.hisnmuslim.com/api/ar/${obj.id}.json`)
+      fetch(`https://www.hisnmuslim.com/api/ar/${obj.id}.json`)
         .then((res) => {
           if (res.status == 404) {
             this.err = "dikr data not found";
